@@ -17,8 +17,9 @@ def isPhoneNumber(text):
   return True
 
 if __name__ == '__main__':
-  numSt : str = input("Enter number:")
-  if (isPhoneNumber(numSt)):
-    print(f"{numSt} is a phone number")
-  else:
-    print(f"{numSt} is not a phone number")
+  text: str = input("Enter text :")
+  n = len(text)
+  for i in range(0,n-12):
+    numSt : str = text[i:i+12]
+    if (isPhoneNumber(numSt)):
+      print(f"{numSt} is a phone number")
