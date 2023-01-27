@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+OrganizingFiles/EuroDates/TrialFiles/*
+ReadingWritingFiles/RandomQuizProject/QuizFiles/*

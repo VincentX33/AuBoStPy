@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/vincent/Code/GithubProjects/AuBoStPy/Debugging/usingTracebacks.py", line 8, in <module>
+    raise Exception("Basic error message")
+Exception: Basic error message
